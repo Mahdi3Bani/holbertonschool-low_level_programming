@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- *main -  negative and positive number
- *
- *Return: Always 0 (Success)
- **/
+/**
+*main -  negative and positive number
+*
+*Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int n;
