@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
- * main - printing possible different combinations of two digits
- * return 0 (succes)
+ * main - write number with 2 didgits only
+ * Return: 0
  */
-int main (void)
+
+int main(void)
 {
 	int i, n;
+
 	for (n = 48; n < 57; n++)
 	{
 		for (i = 49; i < 58; i++)
