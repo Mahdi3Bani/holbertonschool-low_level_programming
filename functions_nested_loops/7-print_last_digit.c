@@ -6,11 +6,13 @@
  *
  * Return: a
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 	int a;
 	a = n % 10;
-	return (a)
+	if (a < 0)
+		a = a * (-1);
+	return (a);
 
 
 }
