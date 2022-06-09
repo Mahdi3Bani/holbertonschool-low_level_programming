@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * islower - checking the lower case
+ * _islower - checking the lower case
+ *
+ * @c: is the global variable
  *
  * Return: 1 if true and 0 if false
  */
