@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _islower - checking the sign
+ * print_sign - checking the sign
  *
- * @c: is the global variable
+ * @n: is the global variable
  *
  * Return: 1 if positive and 0 if null and -1 if negative
  */
