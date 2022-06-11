@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_numbers - no 2 or 4
+ *print_most_numbers - no 2 or 4
  *
  *
  *
