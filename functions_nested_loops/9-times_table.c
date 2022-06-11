@@ -22,13 +22,10 @@ void times_table(void)
 		_putchar(48);
 		for (j 	= 1; j < 10; j++)
 		{
-			_putchar(',');
-			_putchar(' ');
-			_putchar(' ');
-			_putchar(48 + j + i);
+			printf(",  %d", i * 2);
 
 		}
-	_putchar('\n');
+		_putchar('\n');
 
 	}
 
