@@ -13,19 +13,19 @@ void print_to_98(int n)
 	{
 		for (i = n; i > 97; i--)
 		{
-			printf("%d ,", i);
+			printf("%d, ", i);
 		}
 	}
 	else
 	{
 		for (i = n; i < 99; i++)
 		{
-			printf("%d ,", i);
+			printf("%d, ", i);
 
 		}
 	}
-	printf(" 98\n");
+	printf("98\n");
 	}
 	else
-		printf(" 98\n");
+		printf("98\n");
 }
