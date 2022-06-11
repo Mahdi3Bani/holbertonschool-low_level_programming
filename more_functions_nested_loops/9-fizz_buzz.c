@@ -22,6 +22,6 @@ int i;
 	printf("Buzz");
 	_putchar('\n');
 
-
+return (0);
 
 }
