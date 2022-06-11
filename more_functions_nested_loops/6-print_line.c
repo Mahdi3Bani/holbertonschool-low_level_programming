@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * print_line - draws a straight line in the terminal.
  *
  * @n: global var
@@ -14,7 +13,7 @@ int i;
 		_putchar('_');
 	_putchar('\n');
 	}
-	else 
+	else
 		_putchar('\n');
 
 
