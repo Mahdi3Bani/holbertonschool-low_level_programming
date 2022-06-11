@@ -19,8 +19,7 @@ int i;
 		else
 			printf("%d ", i);
 	}
-	printf("Buzz");
-	_putchar('\n');
+	printf("Buzz\n");
 
 return (0);
 
