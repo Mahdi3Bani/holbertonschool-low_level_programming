@@ -18,7 +18,7 @@ int _atoi(char *s)
 	{
 		if (s[i] > '0' && s[i] < '9')
 		{
-			c = s[i] - 0;
+			c = s[i] - 48;
 			n = n + (c * p);
 			p = p * 10;
 			if (s[i - 1] == '-')
