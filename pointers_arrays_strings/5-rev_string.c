@@ -8,6 +8,7 @@ void rev_string(char *s)
 	int i, j, c;
 	char a;
 
+	j = 0;
 	for (i = 0; s[i] != '\0'; i++)
 		j = j + 1;
 
