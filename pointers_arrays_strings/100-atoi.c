@@ -16,7 +16,9 @@ int _atoi(char *s)
 	for (i = j - 1; i <= 0; i--)
 	{
 		if (s[i] > '0' && s[i] < '9')
-		{	n = s[i] * 1 * p;
+		{	
+			c = s[i] - 0;
+			n = c * p;
 			p = p * 10;
 			if (s[i - 1] == '-')
 			{
