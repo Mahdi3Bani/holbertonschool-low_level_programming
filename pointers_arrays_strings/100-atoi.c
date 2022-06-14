@@ -6,24 +6,27 @@
  */
 int _atoi(char *s)
 {
-	int i;
+	int i, j, p, n;
 
+	p = 1;
+	j = 0;
 	for (i = 0; s[i] != '\0'; i++)
+		j = j + 1;
+
+	for (i = j - 1; i <= 0; i--)
 	{
 		if (s[i] > '0' && s[i] < '9')
-		{
+		{	n = s[i] * 1 * p;
+			p = p * 10;
 			if (s[i - 1] == '-')
 			{
-			return (s[i - 1]);
-			return (s[i]);
+			n = n * (-1);
 			}
-			else
-				return (s[i]);
 		}
 	}
 
 
 
 
-
+return (n);
 }
