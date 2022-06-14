@@ -27,7 +27,7 @@ int _atoi(char *s)
 			}
 		}
 	}
-printf("%d",n)
+printf("%d", n);
 
 
 
