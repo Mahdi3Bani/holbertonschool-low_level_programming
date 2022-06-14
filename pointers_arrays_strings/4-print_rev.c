@@ -2,22 +2,21 @@
 /**
  * print_rev - prints a rev string, followed by a new line, to stdout
  *
- * @str: poitner of str
+ * @s: poitner of s
  */
 void print_rev(char *s)
 {
-int i;
-char a[65];
+	int i, j;
 
-a = " ";
-for (i = 0; s[i] != '\0'; ++i)
-	a = s[i] + a;
+	j = 0;
+	for (i = 0; s[i] != '\0'; ++i)
+		j = j + 1;
 
-for (i = 0; a[i] != '\0'; ++i)
-{
-_putchar(a[i]);
-}
-_putchar('\n');
+	for (i = j; i < 0; i--)
+	{
+		_putchar(s[i]);
+	}
+	_putchar('\n');
 
 
 }
