@@ -14,7 +14,7 @@ int _atoi(char *s)
 	for (i = 0; s[i] != '\0'; i++)
 		j = j + 1;
 
-	for (i = j - 1; i <= 0; i--)
+	for (i = j - 1; i >= 0; i--)
 	{
 		if (s[i] > '0' && s[i] < '9')
 		{
@@ -27,9 +27,6 @@ int _atoi(char *s)
 			}
 		}
 	}
-printf("%d", n);
-
-
 
 return (n);
 }
