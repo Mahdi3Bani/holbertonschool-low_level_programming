@@ -7,7 +7,7 @@
 int _atoi(char *s)
 {
 	int i, j, p, n, c;
-	
+
 	n = 0;
 	p = 1;
 	j = 0;
@@ -27,7 +27,7 @@ int _atoi(char *s)
 			}
 		}
 	}
-
+printf("%d",n)
 
 
 
