@@ -7,7 +7,8 @@
 int _atoi(char *s)
 {
 	int i, j, p, n, c;
-
+	
+	n = 0;
 	p = 1;
 	j = 0;
 	for (i = 0; s[i] != '\0'; i++)
@@ -18,7 +19,7 @@ int _atoi(char *s)
 		if (s[i] > '0' && s[i] < '9')
 		{
 			c = s[i] - 0;
-			n = c * p;
+			n = n + (c * p);
 			p = p * 10;
 			if (s[i - 1] == '-')
 			{
