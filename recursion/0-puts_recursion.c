@@ -12,7 +12,7 @@ if (s[i] != '\0')
 {
 putchar(s[i]);
 i = i + 1;
-_puts_recursion(*s);
+_puts_recursion(s);
 }
 
 
