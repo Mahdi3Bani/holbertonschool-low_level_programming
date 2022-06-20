@@ -13,12 +13,8 @@ int j;
 		{
 			j = *s++;
 			if (j == c)
-			{
 				return (s - 1);
-			}
 			if (j == 0)
-			{
 				return (NULL);
-			}
 		}
 }
