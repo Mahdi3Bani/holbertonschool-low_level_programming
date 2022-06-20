@@ -9,7 +9,6 @@
  */
 char *_strchr(char *s, char c)
 {
-
 int j;
 
 		while (j >= 0)
