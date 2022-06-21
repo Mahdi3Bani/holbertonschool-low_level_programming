@@ -6,10 +6,18 @@
  */
 int _sqrt_recursion(int n)
 {
+int a;
+
+a = n + 1;
 if (n < 0)
 return (-1);
+if (((a - (n - 1)) * (a - (n - 1)) == n))
+{
+return ((n - (n - 1)));
+}
 else
-return ((n - (n - 1) * _sqrt_recursion(n - 1)));
+_sqrt_recursion((a - (n - 1)));
+
 
 
 
