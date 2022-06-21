@@ -1,5 +1,5 @@
 #include "main.h"
-int pal(char *s, int i, int n);
+int pal(char s, int i, int n);
 /**
  * pal - palindrome
  * @s: pointer
@@ -7,12 +7,12 @@ int pal(char *s, int i, int n);
  * @n: size of s
  * Return: 1 or 0
  */
-int pal(char *s, int i, int n)
+int pal(char s, int i, int n)
 {
 if (i == n)
 return (1);
 if (s[i] == s[n - 1])
-return (pal(*s, i + 1, n - 1));
+return (pal(s, i + 1, n - 1));
 else
 return (0);
 
@@ -38,12 +38,12 @@ int n;
 
 i = 0;
 n = 0;
-for (i = 0; str[i] != '\0'; ++i)
+for (i = 0; s[i] != '\0'; ++i)
 {
-_n = n + 1;
+n = n + 1;
 }
 i = 0;
-return (pal(*s, i, n));
+return (pal(s, i, n));
 
 
 
