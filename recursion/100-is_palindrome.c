@@ -1,5 +1,22 @@
 #include "main.h"
 int pal(char *s, int i, int n);
+int _strlen_recursion(char *s);
+/**
+ * _strlen_recursion - returns length of string
+ * @s: string to count
+ * Return: length of s
+ **/
+int _strlen_recursion(char *s)
+{
+if (*s != '\0')
+return (_strlen_recursion(s + 1) + 1);
+else
+return (0);
+
+
+
+
+}
 /**
  * pal - palindrome
  * @s: pointer
@@ -29,10 +46,6 @@ int is_palindrome(char *s)
 	int n = 0;
 
 
-	for (i = 0; s[i] != '\0'; ++i)
-	{
-		n = n + 1;
-	}
-	i = 0;
+	n = _strlen_recursion(s);
 	return (pal(s, i, n));
 }
