@@ -37,7 +37,7 @@ int i = 1;
 
 if (n < 0)
 n = n * -1;
-if (n == 1 || n == 0 || n == -1)
+if (n == 1 || n == 0)
 return (0);
 else
 return (prime(n, i + 1));
