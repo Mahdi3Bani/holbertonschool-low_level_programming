@@ -15,6 +15,6 @@ for (i = 0; i < argc; i++)
 	j = j + 1;
 }
 
-	printf("%d\n", j;
+	printf("%d\n", j);
 	return (0);
 }
