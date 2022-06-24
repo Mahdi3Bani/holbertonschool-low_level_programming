@@ -12,14 +12,14 @@ int sum;
 
 if (argc == 1)
 {
-printf("0\n")
+printf("0\n");
 }
 else
 {
 for (i = 1; i < argc; i++)
 {
 if (atoi(argv[i]))
-sum = sum + argv[i]
+sum = sum + argv[i];
 else
 {
 printf("Error")
