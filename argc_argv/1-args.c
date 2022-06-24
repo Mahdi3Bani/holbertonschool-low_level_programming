@@ -9,7 +9,7 @@ int main(int argc, char *argv[] __attribute__((unused)))
 {
 int i, j;
 
-j = 0;
+j = -1;
 for (i = 0; i < argc; i++)
 {
 	j = j + 1;
