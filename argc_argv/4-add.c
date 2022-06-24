@@ -23,11 +23,11 @@ if (atoi(argv[i]))
 sum = sum + atoi(argv[i]);
 else
 {
-printf("Error");
+printf("Error\n");
 return (0);
 }
 }
-printf("%d", sum);
+printf("%d\n", sum);
 }
-return(0);
+return (0);
 }
