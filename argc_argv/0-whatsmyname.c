@@ -5,10 +5,14 @@
  * @argv: array of arguments
  * Return: 0
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc , char *argv[])
 {
+int i;
 
-	printf("%s\n", argv[0]);
+for (i = 0; i < argc; i++)
+{
+	printf("%s",argv[i]);
+}
 
 	return (0);
 }
