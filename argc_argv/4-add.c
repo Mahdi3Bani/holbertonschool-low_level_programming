@@ -8,8 +8,9 @@
  */
 int main(int argc, char *argv[])
 {
-int sum;
+int sum, i;
 
+sum = 0;
 if (argc == 1)
 {
 printf("0\n");
@@ -22,7 +23,7 @@ if (atoi(argv[i]))
 sum = sum + argv[i];
 else
 {
-printf("Error")
+printf("Error");
 return (0);
 }
 }
