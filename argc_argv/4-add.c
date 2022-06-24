@@ -20,7 +20,7 @@ else
 for (i = 1; i < argc; i++)
 {
 if (atoi(argv[i]))
-sum = sum + argv[i];
+sum = sum + atoi(argv[i]);
 else
 {
 printf("Error");
