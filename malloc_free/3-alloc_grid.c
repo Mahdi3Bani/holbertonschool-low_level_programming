@@ -18,7 +18,7 @@ return (NULL);
 for (i = 0; i < height; i++)
 {
 a[i] = (int *) malloc(4 * width);
-if (arr[i] == NULL)
+if (a[i] == NULL)
 {
 free(arr);
 for (j = 0; j <= i; j++)
