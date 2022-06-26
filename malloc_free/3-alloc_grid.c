@@ -22,7 +22,7 @@ if (arr[i] == NULL)
 {
 free(arr);
 for (j = 0; j <= i; j++)
-free(arr[j]);
+free(a[j]);
 return (NULL);
 }
 }
