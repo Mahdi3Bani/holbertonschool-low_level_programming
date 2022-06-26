@@ -20,7 +20,7 @@ for (i = 0; i < height; i++)
 a[i] = (int *) malloc(4 * width);
 if (a[i] == NULL)
 {
-free(arr);
+free(a);
 for (j = 0; j <= i; j++)
 free(a[j]);
 return (NULL);
