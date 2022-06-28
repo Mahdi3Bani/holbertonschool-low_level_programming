@@ -14,15 +14,10 @@ unsigned int l, l1, l2, i;
 l1 = strlen(s1);
 l2 = strlen(s2);
 if (n >= l2)
-{
 l = l1 + l2;
-s = malloc(l + 1);
-}
 else
-{
 l = l1 + n;
-s = malloc(l + 1);
-}
+s = malloc(sizeof(char) * (l + 1));
 if (!s)
 return (NULL);
 for (i = 0; i < l; i++)
