@@ -12,7 +12,7 @@ int *s, size, i;
 if (min > max)
 return (NULL);
 
-size = max - min;
+size = max - min + 1;
 s = malloc(sizeof(int) * size);
 if (s == NULL)
 return (NULL);
