@@ -14,7 +14,7 @@ return (NULL);
 s = malloc(size * nmemb);
 if (s == NULL)
 return (NULL);
-memset(s, 0, nmemb * size)
+memset(s, 0, nmemb * size);
 return (s);
 
 
