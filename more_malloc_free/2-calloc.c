@@ -5,7 +5,7 @@
  * @size: size of type
  * Return: memory space
  */
-void *_calloc(unsigned int nmemb, unsigned int size);
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 char *s;
 if ((nmemb == 0) || (size == 0))
