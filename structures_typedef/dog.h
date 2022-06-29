@@ -1,5 +1,9 @@
 #ifndef DOG_H_
 #define DOG_H_
+/**
+ * struct dog - new structure type
+ * 
+ */
 struct dog
 {
 	char *name;
