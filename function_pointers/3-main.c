@@ -23,7 +23,7 @@ if (!f)
 printf("Error\n");
 exit(1);
 }
-r = func(atoi(argv[1]), atoi(argv[3]));
+r = f(atoi(argv[1]), atoi(argv[3]));
 printf("%d\n", r);
 return (0);
 
