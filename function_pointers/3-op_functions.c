@@ -18,7 +18,7 @@ return (sum);
  * @b: var
  * Return: diff
  */
-nt op_sub(int a, int b)
+int op_sub(int a, int b)
 {
 int diff;
 
