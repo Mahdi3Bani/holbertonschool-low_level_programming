@@ -16,5 +16,5 @@ printf("%d", va_arg(args, int));
 if (separator != NULL && i < n)
 printf("%s", separator);
 }
-printf('\n');
+printf("\n");
 }
