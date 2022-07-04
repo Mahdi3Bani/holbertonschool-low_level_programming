@@ -6,7 +6,7 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-nsigned int i;
+unsigned int i;
 va_list args;
 va_start(args, n);
 
