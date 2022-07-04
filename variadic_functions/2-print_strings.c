@@ -11,7 +11,7 @@ unsigned int i;
 va_list args;
 va_start(args, n);
 
-for (i = 0; i < n; i++)
+for (i = 1; i <=  n; i++)
 {
 if (va_arg(args, char *) != NULL)
 printf("%s", va_arg(args, char *));
