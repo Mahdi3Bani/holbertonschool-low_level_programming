@@ -1,0 +1,1 @@
+everything abt argc,argv
