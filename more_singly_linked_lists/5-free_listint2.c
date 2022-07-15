@@ -13,6 +13,6 @@ void free_listint2(listint_t **head)
 	{
 		A = NULL;
 		free(head);
-		head = A;
+		head = *A;
 	}
 }
