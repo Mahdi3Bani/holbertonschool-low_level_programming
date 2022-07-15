@@ -4,7 +4,7 @@
  * @head: pointer to the head
  * Return: the number of nodes
  */
-size_t sum_listint(const listint_t *head)
+int sum_listint(listint_t *head)
 {
 	int sum = 0;
 	listint_t *A = head;
