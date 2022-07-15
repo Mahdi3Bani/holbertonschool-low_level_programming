@@ -2,6 +2,7 @@
 /**
  * pop_listint - delete the head node and return the node data
  * @head: the list
+ * Return: the data
  */
 int pop_listint(listint_t **head)
 {
