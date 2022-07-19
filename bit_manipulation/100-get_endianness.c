@@ -13,7 +13,7 @@ void show_mem_rep(char *start, int n)
 
 	for (i = 0; i < n; i++)
 		putchar(start[i] + '0');
-	putchar("\n");
+	putchar('\n');
 }
 
 /**
