@@ -27,20 +27,12 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 			_putchar(' ');
-			if (a > 10)
-			{
 
-				while (a / 10 != 0)
-				{
-
-					_putchar((a % 10) + '0');
-					a = a / 10;
-				}
-			}
-			else
+			while (a / 10 != 0)
 			{
 
 				_putchar((a % 10) + '0');
+				a = a / 10;
 			}
 		}
 		_putchar('\n');
