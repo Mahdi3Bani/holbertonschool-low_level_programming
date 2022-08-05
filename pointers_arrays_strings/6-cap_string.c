@@ -1,7 +1,7 @@
 #include "main.h"
-/** 
+/**
  *cap_string - capitalizes all words of a string.
- *@str: global var
+ *@s: global var
  *Return: s
  */
 char *cap_string(char *s)
@@ -9,7 +9,7 @@ char *cap_string(char *s)
 	int i, j;
 
 	char separetor[13] = {' ', '\t', '\n', ',', ';', '.',
-		'!', '?', '"', '(', ')', '{', '}'};
+						  '!', '?', '"', '(', ')', '{', '}'};
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
