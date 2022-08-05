@@ -21,23 +21,28 @@ void times_table(void)
 	for (i = 0; i < 10; i++)
 	{
 		_putchar(48);
-		for (j 	= 1; j < 10; j++)
+		for (j = 1; j < 10; j++)
 		{
-			a = i * 3;
+			a = i * j;
 			if (a > 10)
 			{
-			while (a / 10 != 0)
-			{
-				_putchar((a % 10) + '0');
-				a = a / 10;
-			}
-
+				while (a / 10 != 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar((a % 10) + '0');
+					a = a / 10;
+				}
 			}
 			else
-			_putchar((a % 10) + '0');
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar((a % 10) + '0');
+			}
 		}
 		_putchar('\n');
-
 	}
-
 }
