@@ -7,6 +7,7 @@ void times_table(void)
 {
 	int i;
 	int j;
+	int a;
 
 	_putchar(48);
 	for (i = 0; i < 9; i++)
@@ -22,8 +23,18 @@ void times_table(void)
 		_putchar(48);
 		for (j 	= 1; j < 10; j++)
 		{
-			printf(",  %d", i * 3);
+			a = i * 3;
+			if (a > 10)
+			{
+			while (a / 10 != 0)
+			{
+				_putchar((a % 10) + '0');
+				a = a / 10;
+			}
 
+			}
+			else
+			_putchar((a % 10) + '0');
 		}
 		_putchar('\n');
 
