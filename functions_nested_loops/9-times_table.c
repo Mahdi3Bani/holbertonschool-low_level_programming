@@ -26,11 +26,12 @@ void times_table(void)
 			a = i * j;
 			if (a > 10)
 			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
 				while (a / 10 != 0)
 				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
+
 					_putchar((a % 10) + '0');
 					a = a / 10;
 				}
