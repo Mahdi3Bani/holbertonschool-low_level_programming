@@ -7,16 +7,19 @@
  */
 char *_strchr(char *s, char c)
 {
-int j;
-char a;
+int a;
 
-a = s;
-while (*a != '\0' && *a != c)
-    a = a + 1;
-
-if (*a != c)
-		return (NULL);
-	else
-		return (a)
+		while (1)
+		{
+			a = *s++;
+			if (a == c)
+			{
+				return (s - 1);
+			}
+			if (a == 0)
+			{
+				return (NULL);
+			}
+		}
 
 }
