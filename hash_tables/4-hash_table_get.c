@@ -9,7 +9,7 @@
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 	unsigned long int size;
-	int i = 0;
+	unsigned long int i = 0;
 	hash_node_t *tmp;
 	char *valeur;
 
