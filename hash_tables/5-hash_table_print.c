@@ -5,7 +5,7 @@
  */
 void hash_table_print(const hash_table_t *ht)
 {
-	unsigned long int i;
+	unsigned long int i = 0;
 	int test = 0;
 
 	if (!ht)
@@ -24,6 +24,7 @@ void hash_table_print(const hash_table_t *ht)
 				ht->array[i] = ht->array[i]->next;
 			}
 		}
+	i++;
 	}
 	printf("}\n");
 }
